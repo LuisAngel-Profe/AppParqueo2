@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppParqueo.Views.MantenimientoTipoVehiculosPage">
+    <!--<ContentPage.Content>-->
+
+        <ScrollView>
+
+            <StackLayout Padding="12,20,12,12" Margin="10">
+
+                <Label Text="Tipo Vehiculos" 
+                       FontSize="24" 
+                       HorizontalOptions="Center" 
+                       TextColor="White"/>
+
+                <Entry x:Name="tipoVehiculoEntry"
+                       Placeholder="Tipo Vehiculo"
+                       TextColor="White"/>
+
+                <Entry x:Name="PrecioEntry"
+                       Placeholder="Precio por Hora"
+                       TextColor="White"
+                       Keyboard="Numeric"/>
+
+                <Button x:Name="nuevobtn"
+                        Text="Nuevo"
+                        HorizontalOptions="Center"
+                        />
+
+                <ListView x:Name="datosListView"/>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <!--<Grid RowSpacing="1">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+
+            </Grid.ColumnDefinitions>
+          
+            <StackLayout Grid.Row="0" Grid.Column="0" Padding="13" >
+                            
+            </StackLayout>
+
+            <StackLayout Grid.Row="0" Grid.Column="1" Padding="13" >
+        
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Grid.Column="0" Padding="13" >
+
+                <Label Text="Tipo de Vehiculo" FontSize="16" TextColor="White" VerticalOptions="CenterAndExpand"/>
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Grid.Column="1" Padding="13" >
+                <Entry Placeholder="Ingrese el Tipo de Vehiculo" PlaceholderColor="White" />
+            </StackLayout>
+                
+            <StackLayout Grid.Row="2" Grid.Column="0" Padding="13">
+
+                <Label Text="Precio" FontSize="16" TextColor="White" VerticalOptions="CenterAndExpand"/>
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Grid.Column="1" Padding="13" >
+
+                <Entry Placeholder="Ingrese el precio por hora" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" Grid.Column="0" Padding="13">
+
+                <Button Text="Guardar" x:Name="btnGuardar"  BackgroundColor="White" BorderRadius="20"/>
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" Grid.Column="1" Padding="13">
+
+                <Button Text="Cancelar" x:Name="btnCancelar"  BackgroundColor="White" BorderRadius="20"/>
+
+            </StackLayout>
+
+        </Grid>-->
+
+    <!--</ContentPage.Content>-->
+
+    
+</ContentPage>
